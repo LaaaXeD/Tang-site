@@ -7,3 +7,13 @@ body {
  h1 {
     color: coral;
  }
+ .mylogo {
+    text-align: center;
+ }
+
+ img{
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
