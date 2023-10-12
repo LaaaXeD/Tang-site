@@ -1,13 +1,14 @@
 h1,h2,p {
     text-align: center;
+    font-size: larger;
   }
 body {
-  background-color: #ffe1cd;
+  background-color: #bcbcbc;
 }
  h1 {
-    color: coral;
+    background-color: coral;
  }
- .mylogo {
+ .mylogo, .ferg {
     text-align: center;
  }
 
@@ -16,4 +17,8 @@ body {
     max-height: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer {
+   background-color: coral;
 }
