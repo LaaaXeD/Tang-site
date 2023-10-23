@@ -1,9 +1,10 @@
 h1,h2,p {
     text-align: center;
-    font-size: larger;
   }
-body {
-  background-color: #bcbcbc;
+
+  /* Light Gray Background */
+  body {
+  background-color: #d3d3d3;
 }
  h1 {
     background-color: coral;
@@ -14,13 +15,39 @@ body {
     text-align: center;
  }
 
+ 
+ /* Making Images Same size */
  img{
     max-width: 50%;
     max-height: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
 }
 
 footer {
    background-color: coral;
+}
+
+h2 {
+   font-size: 25px;
+   margin: 0;
+   ;
+}
+
+* {
+   font-family: Times, "Times New Roman";
+} 
+
+/* Orange Border */
+hr {
+   border-color: coral;
+   border-width: 2px;
+}
+
+/* Upcoming */
+ul {
+   color: purple;
+   font-size: 30px;
+   text-align: center;
 }
