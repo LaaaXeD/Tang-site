@@ -9,8 +9,8 @@ h1,h2,p {
  h1 {
     background-color: coral;
     font-size: 50px;
-    color
  }
+ 
  .mylogo, .ferg {
     text-align: center;
  }
@@ -22,7 +22,6 @@ h1,h2,p {
     max-height: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
 }
 
 footer {
@@ -32,7 +31,8 @@ footer {
 /* Spacing between margin and heading title */
 h2 {
    font-size: 25px;
-   margin-top: 30px;
+   margin-top: 25px;
+   margin-bottom: 25px;
 }
 
 * {
