@@ -1,27 +1,24 @@
-h1,h2,p {
-    text-align: center;
-  }
-
-  /* Light Gray Background */
+  /* Added gradient */
   body {
-  background-color: #d3d3d3;
+   background-image: linear-gradient( 102.4deg,  rgba(253,189,85,1) 7.8%, rgba(249,131,255,1) 100.3% );
+   max-width: 121vh;
+   text-align: center;
+   margin: 300px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
 }
  h1 {
     background-color: coral;
     font-size: 50px;
  }
  
- .mylogo, .ferg {
-    text-align: center;
- }
-
  
  /* Making Images Same size */
  img{
     max-width: 50%;
     max-height: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px 50px 50px 50px;
+    box-shadow: 10px 10px 10px blueviolet;
 }
 
 footer {
@@ -33,6 +30,10 @@ h2 {
    font-size: 25px;
    margin-top: 25px;
    margin-bottom: 25px;
+   border: 2px solid black;
+   background-color: blueviolet;
+   padding: 5px;
+   display: block;
 }
 
 * {
@@ -45,9 +46,20 @@ hr {
    border-width: 2px;
 }
 
-/* Upcoming */
-ul {
-   color: purple;
-   font-size: 30px;
-   text-align: center;
+
+
+/* Added banner classes and border */
+.banner {
+   width: auto;
+   height: auto;
+   border: 1px solid black;
+   margin: auto;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   display: block;
+}
+
+span img {
+   width: auto;
+   height: 250px;
 }
