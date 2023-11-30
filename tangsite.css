@@ -21,9 +21,6 @@
     box-shadow: 10px 10px 10px blueviolet;
 }
 
-footer {
-   background-color: coral;
-}
 
 /* Spacing between margin and heading title */
 h2 {
@@ -62,4 +59,31 @@ hr {
 span img {
    width: auto;
    height: 250px;
+   margin: 10px;
+}
+
+/* Origin */
+.text {
+   background-color: coral;
+   border: 2px solid black;
+}
+
+/* Upcoming Eps */
+.banner {
+   background-color: coral;
+}
+
+/* Footer */
+.feet img {
+   max-height: 30px;
+   margin: 20px;
+}
+
+.feet {
+   display: flex;
+   margin-top: 30px;
+}
+
+.feet {
+   justify-content: space-evenly;
 }
