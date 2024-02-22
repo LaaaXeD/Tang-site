@@ -43,6 +43,9 @@ hr {
 }
 
 
+.soflo img {
+   display: flex;
+}
 
 /* Added banner classes and border */
 .banner {
@@ -91,55 +94,39 @@ span img {
 
 
 /* Nav Bar */
-div .yt {
-   background-color: red;
-}
 
-div .home {
-   background-color: yellow;
-}
-
-div .artist {
-   background-color: limegreen ;
-}
-
-div .footer {
-   background-color: cornflowerblue;
-}
 
 
 .bar-container {
    border: 1px solid;
    border-radius: 10px;
-   background-color: black;
    background: rgb(255,127,80);
    background: linear-gradient(90deg, rgba(255,127,80,1) 31%, rgba(138,43,226,1) 76%);
+   margin: 0 auto;
 }
 
 .bar-container ul {
    list-style: none;
    display: flex;
    justify-content: space-evenly;
-   min-height: auto;
    align-items: center;
    flex: 1;
-   background-color: black;
    padding: 5px;
    flex-wrap: wrap;
-   border-radius: 1rem;
-   width: 100%;
-   margin-top: 2%;
+   text-decoration: none;
 }
 
 .bar {
    height: 25px;
-   width:auto;
    padding: 4px;
    border-radius: 1rem;
-   border: 1px solid black;
    margin: 0 5px 0 5px;
    justify-content: space-evenly;
    flex: 1;
+}
+
+a {
+   text-decoration: none;
 }
 
 /* Think Tank */
