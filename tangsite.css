@@ -29,7 +29,7 @@
    display: flex; 
    height: 50px;
    align-items: center;
-   justify-content: space-between;
+   justify-content: space-around;
    
 }
 
@@ -94,7 +94,7 @@ ul {
 .pod button {
    display: block;
    margin: 0 auto;
-   margin-top: 50px;
+   margin-top: 3.125rem;
    background-color: black;
    border-radius: 1rem;
    padding: 5px;
@@ -109,7 +109,7 @@ ul {
 /* Website */
 
 .site {
-   margin: 300px 0;
+   margin: 18.75rem 0;
    text-align: center;
 }
 
@@ -131,7 +131,8 @@ ul {
 }
 
 .site h3 {
-   margin: 50px 0;
+   /* margin: 20px 0; */
+   margin-top: 50px;
 }
 
 .site button {
@@ -176,7 +177,7 @@ footer {
 .icons {
    display: flex;
    align-items: center;
-   justify-content: space-evenly;
+   justify-content: center;
 }
 
 .icons img {
