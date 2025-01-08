@@ -35,7 +35,22 @@ img {
    
 }
 
+.nav-container li:hover:not(:first-child) {
+   background-color:#f983ff;
+   color: black;
+   padding: .25em;
+   border-radius: .5em;
+   font-weight: 700;
+   border: 1px solid #fdbd55;
+}
 
+.nav-container a:visited {
+   color: #fff;
+}
+
+.nav-container a:link {
+   color: #fff;
+}
 
 .hero {
    text-align: center;
@@ -207,6 +222,14 @@ footer {
    max-width: 50px;
 }
 
+button:hover {
+   background-color:#fdbd55
+}
+
+button a:hover {
+   color: black;
+}
+
 @media (max-width: 800px) {
 
 body {
@@ -228,6 +251,10 @@ img {
    max-width: 50px;
 }
 
+.hero h1, .hero h3, .hero button {
+   margin-top: 0;
+}
+
 .nav-container {
    list-style-type: none;
    display: flex; 
@@ -237,6 +264,12 @@ img {
    
 }
 
+.nav-container li:hover:not(:first-child) {
+   background-color:#fdbd55;
+   color: black;
+   border-radius: .5em;
+   font-weight: 700;
+}
 
 .hero {
    display: block;
