@@ -230,6 +230,28 @@ button a:hover {
    color: black;
 }
 
+/* POD PAGE */
+.pod-page {
+   text-align: center;
+}
+
+.pod-page img {
+   max-width: 75%;
+   border-radius: 0px;
+}
+
+.podcast-title {
+   margin: 1.5em 0px;
+   font-weight: 900;
+}
+
+.pod-page-title h2 {
+   color: #a43baa;
+}
+
+em {
+   font-weight: 700;
+}
 @media (max-width: 800px) {
 
 body {
@@ -328,5 +350,13 @@ footer {
    margin: 0 auto;
 }
 
+.pod-page img {
+   max-width: 100%;
+   border-radius: 0px;
+}
+
+.podcast-title {
+   margin: .75em 0px;
+}
 
 }
